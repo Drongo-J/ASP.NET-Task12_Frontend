@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASP.NET | Task 12 | aykhan.net</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://res.cloudinary.com/dbriqxpaa/image/upload/v1680096853/Logo/logo-xl-ico_qzbf7d.ico" />
+    <link rel="stylesheet" href="requests.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <section class="headline">
+            <a id="text-logo" href="http://aykhan.net">aykhan.net</a>
+            <a id="task-download-link" href="Web Programming - Task.zip">Download Task</a>
+        </section>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main class="swagger-ui">
+
+        <!-- =========================================== -->
+
+        <span>
+            <div class="opblock opblock-get is-open" id="operations-Student-get_api_Student">
+                <div class="opblock-summary opblock-summary-get">
+                    <button aria-label="get &ZeroWidthSpace;/api&ZeroWidthSpace;/Student" aria-expanded="true"
+                        class="opblock-summary-control"><span class="opblock-summary-method">GET</span><span
+                            class="opblock-summary-path" data-path="/api/Student"><a class="nostyle"><span
+                                    style="white-space: nowrap !important;">/api/Student</span></a></span>
+                    </button>
+
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Expand / Collapse
+                    </button>
+                </div>
+
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        <div class="opblock-body">
+                            <div class="opblock-section">
+                                <div class="opblock-section-header">
+                                    <div class="tab-header">
+                                        <div class="tab-item active">
+                                            <h4 class="opblock-title"><span>Parameters</span></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="parameters-container">
+                                    <div class="opblock-description-wrapper">
+                                        <p>No parameters</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="execute-wrapper"><button class="btn execute opblock-control__btn"
+                                    onclick="request1click()">Execute</button>
+                            </div>
+                            <div class="responses-wrapper">
+                                <div class="opblock-section-header">
+                                    <h4>Responses</h4>
+                                </div>
+
+                                <textarea id="request1response" class="response"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </span>
+
+        <!-- =========================================== -->
+
+        <!-- =========================================== -->
+
+        <span>
+            <div class="opblock opblock-get is-open" id="operations-Student-get_api_Student">
+                <div class="opblock-summary opblock-summary-get">
+                    <button aria-label="get &ZeroWidthSpace;/api&ZeroWidthSpace;/Student" aria-expanded="true"
+                        class="opblock-summary-control"><span class="opblock-summary-method">GET</span><span
+                            class="opblock-summary-path" data-path="/api/Student"><a class="nostyle"><span
+                                    style="white-space: nowrap !important;">/api/Student/Best</span></a></span>
+                    </button>
+
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#item2"
+                        aria-expanded="false" aria-controls="item2">
+                        Expand / Collapse
+                    </button>
+                </div>
+
+                <div class="collapse" id="item2">
+                    <div class="card card-body">
+                        <div class="opblock-body">
+                            <div class="opblock-section">
+                                <div class="opblock-section-header">
+                                    <div class="tab-header">
+                                        <div class="tab-item active">
+                                            <h4 class="opblock-title"><span>Parameters</span></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="parameters-container">
+                                    <div class="opblock-description-wrapper">
+                                        <p>No parameters</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="execute-wrapper"><button class="btn execute opblock-control__btn"
+                                    onclick="request2click()">Execute</button>
+                            </div>
+                            <div class="responses-wrapper">
+                                <div class="opblock-section-header">
+                                    <h4>Responses</h4>
+                                </div>
+
+                                <textarea id="request2response" class="response"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </span>
+
+        <!-- =========================================== -->
+
+        <!-- =========================================== -->
+
+        <span>
+            <div class="opblock opblock-get is-open" id="operations-Student-get_api_Student">
+                <div class="opblock-summary opblock-summary-get">
+                    <button aria-label="get &ZeroWidthSpace;/api&ZeroWidthSpace;/Student" aria-expanded="true"
+                        class="opblock-summary-control"><span class="opblock-summary-method">GET</span><span
+                            class="opblock-summary-path" data-path="/api/Student"><a class="nostyle"><span
+                                    style="white-space: nowrap !important;">/api/Student/{id}</span></a></span>
+                    </button>
+
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#item3"
+                        aria-expanded="false" aria-controls="item3">
+                        Expand / Collapse
+                    </button>
+                </div>
+
+                <div class="collapse" id="item3">
+                    <div class="card card-body">
+                        <div class="opblock-body">
+                            <div class="opblock-section">
+                                <div class="opblock-section-header">
+                                    <div class="tab-header">
+                                        <div class="tab-item active">
+                                            <h4 class="opblock-title"><span>Parameters</span></h4>
+                                        </div>
+                                    </div>
+                                    <div class="try-out"><button class="btn try-out__btn cancel">Cancel</button></div>
+                                </div>
+                                <div class="parameters-container">
+                                    <div class="table-container">
+                                        <table class="parameters">
+                                            <thead>
+                                                <tr>
+                                                    <th class="col_header parameters-col_name">Name</th>
+                                                    <th class="col_header parameters-col_description">Description</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr data-param-name="id" data-param-in="path">
+                                                    <td class="parameters-col_name">
+                                                        <div class="parameter__name required">
+                                                            <!-- react-text: 695 -->id<!-- /react-text --><span>&nbsp;*</span>
+                                                        </div>
+                                                        <div class="parameter__name required">
+                                                            <!-- react-text: 695 -->Default -1 (Brings all student
+                                                            data)<!-- /react-text --><span>&nbsp;*</span>
+                                                        </div>
+                                                        <div class="parameter__type">
+                                                            <!-- react-text: 698 -->integer<!-- /react-text --><span
+                                                                class="prop-format"><!-- react-text: 700 -->($<!-- /react-text --><!-- react-text: 701 -->int32<!-- /react-text --><!-- react-text: 702 -->)<!-- /react-text --></span>
+                                                        </div>
+                                                        <div class="parameter__deprecated"></div>
+                                                        <div class="parameter__in">
+                                                            <!-- react-text: 705 -->(<!-- /react-text --><!-- react-text: 706 -->path<!-- /react-text --><!-- react-text: 707 -->)<!-- /react-text -->
+                                                        </div>
+                                                    </td>
+                                                    <td class="parameters-col_description">
+                                                        <input id="request3input" type="number" class="" required
+                                                            title="" placeholder="id" value="-1">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="execute-wrapper"><button class="btn execute opblock-control__btn"
+                                    onclick="request3click()">Execute</button>
+                            </div>
+                            <div class="responses-wrapper">
+                                <div class="opblock-section-header">
+                                    <h4>Responses</h4>
+                                </div>
+
+                                <textarea id="request3response" class="response"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </span>
+
+        <!-- =========================================== -->
+
+        <!-- =========================================== -->
+
+        <span>
+            <div class="opblock opblock-delete is-open" id="operations-Student-delete_api_Student__id_">
+                <div class="opblock-summary opblock-summary-delete"><button
+                        aria-label="delete &ZeroWidthSpace;/api&ZeroWidthSpace;/Student&ZeroWidthSpace;/{id}"
+                        aria-expanded="true" class="opblock-summary-control"><span
+                            class="opblock-summary-method">DELETE</span><span class="opblock-summary-path"
+                            data-path="/api/Student/{id}"><a
+                                class="nostyle"><span>&ZeroWidthSpace;/api&ZeroWidthSpace;/Student&ZeroWidthSpace;/{id}</span></a></span>
+                        <div class="opblock-summary-description"></div><svg class="arrow" width="20" height="20"
+                            aria-hidden="true" focusable="false">
+                            <use href="#large-arrow-up" xlink:href="#large-arrow-up"></use>
+                        </svg>
+                    </button><!-- react-empty: 369 -->
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#item4"
+                        aria-expanded="false" aria-controls="item4">
+                        Expand / Collapse
+                    </button>
+                </div>
+
+                <div class="collapse" id="item4">
+                    <div class="card card-body">
+                        <div class="opblock-body">
+                            <div class="opblock-section">
+                                <div class="opblock-section-header">
+                                    <div class="tab-header">
+                                        <div class="tab-item active">
+                                            <h4 class="opblock-title"><span>Parameters</span></h4>
+                                        </div>
+                                    </div>
+                                    <div class="try-out"><button class="btn try-out__btn cancel">Cancel</button></div>
+                                </div>
+                                <div class="parameters-container">
+                                    <div class="table-container">
+                                        <table class="parameters">
+                                            <thead>
+                                                <tr>
+                                                    <th class="col_header parameters-col_name">Name</th>
+                                                    <th class="col_header parameters-col_description">Description</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr data-param-name="id" data-param-in="path">
+                                                    <td class="parameters-col_name">
+                                                        <div class="parameter__name required">
+                                                            <!-- react-text: 695 -->id<!-- /react-text --><span>&nbsp;*</span>
+                                                        </div>
+                                                        <div class="parameter__type">
+                                                            <!-- react-text: 698 -->integer<!-- /react-text --><span
+                                                                class="prop-format"><!-- react-text: 700 -->($<!-- /react-text --><!-- react-text: 701 -->int32<!-- /react-text --><!-- react-text: 702 -->)<!-- /react-text --></span>
+                                                        </div>
+                                                        <div class="parameter__deprecated"></div>
+                                                        <div class="parameter__in">
+                                                            <!-- react-text: 705 -->(<!-- /react-text --><!-- react-text: 706 -->path<!-- /react-text --><!-- react-text: 707 -->)<!-- /react-text -->
+                                                        </div>
+                                                    </td>
+                                                    <td class="parameters-col_description">
+                                                        <input id="request4input" type="number" class="" required
+                                                            title="" placeholder="id" value="-1">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="execute-wrapper"><button class="btn execute opblock-control__btn"
+                                    onclick="request4click()">Execute</button>
+                            </div>
+                            <div class="responses-wrapper">
+                                <div class="opblock-section-header">
+                                    <h4>Responses</h4>
+                                </div>
+
+                                <textarea id="request4response" class="response"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </span>
+
+        <!-- =========================================== -->
+
+        <!-- =========================================== -->
+
+        <span>
+            <div class="opblock opblock-post is-open" id="operations-Student-post_api_Student__id_">
+                
+                <div class="opblock-summary opblock-summary-post"><button
+                        aria-label="post &ZeroWidthSpace;/api&ZeroWidthSpace;/Student&ZeroWidthSpace;/{id}"
+                        aria-expanded="true" class="opblock-summary-control"><span
+                            class="opblock-summary-method">POST</span><span class="opblock-summary-path"
+                            data-path="/api/Student/{id}"><a
+                                class="nostyle"><span>&ZeroWidthSpace;/api&ZeroWidthSpace;/Student&ZeroWidthSpace;/{id}</span></a></span>
+                        <div class="opblock-summary-description"></div><svg class="arrow" width="20" height="20"
+                            aria-hidden="true" focusable="false">
+                            <use href="#large-arrow-up" xlink:href="#large-arrow-up"></use>
+                        </svg>
+                    </button><!-- react-empty: 369 -->
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#item5"
+                        aria-expanded="false" aria-controls="item5">
+                        Expand / Collapse
+                    </button>
+                </div>
+
+                <div class="collapse" id="item5">
+                    <div class="card card-body">
+                        <div class="opblock-body">
+                            <div class="opblock-section">
+                                <div class="opblock-section-header">
+                                    <div class="tab-header">
+                                        <div class="tab-item active">
+                                            <h4 class="opblock-title"><span>Parameters</span></h4>
+                                        </div>
+                                    </div>
+                                    <div class="try-out"><button class="btn try-out__btn cancel">Cancel</button></div>
+                                </div>
+                                <div class="parameters-container">
+                                    <div class="table-container">
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                            <textarea class="body-param__text" title="" id="jsoninput">
+{
+    "fullname": "string",   
+    "seriaNo": "string",
+    "age": 0,
+    "score": 0,
+    "password" : "string",
+    "username": "string"
+}
+</textarea>
+                            <div class="execute-wrapper"><button class="btn execute opblock-control__btn"
+                                    onclick="request5click()">Execute</button>
+                            </div>
+                            <div class="responses-wrapper">
+                                <div class="opblock-section-header">
+                                    <h4>Responses</h4>
+                                </div>
+
+                                <textarea id="request5response" class="response"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </span>
+    </main>
+
+    <!-- =========================================== -->
+
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <p>Copyright © Aykhan Ahmadzada 2023 - <a href="https://aykhan.net"
+                style="text-decoration: underline;">aykhan.net</a></p>
+    </footer>
+    <!-- Footer End -->
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="requests.js"></script>
+
+</html>
